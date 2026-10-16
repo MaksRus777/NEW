@@ -1,16 +1,7 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDkvkw0A0VXYLJwniAAXcOsOBaY6s8O9EnzPPetH0+MEAAAAJih0iRModIk
+TAAAAAtzc2gtZWQyNTUxOQAAACDkvkw0A0VXYLJwniAAXcOsOBaY6s8O9EnzPPetH0+MEA
+AAAEApAoS890f7cL4OfrNa518JcPvz1u7TBqoZ3CJhoOco+OS+TDQDRVdgsnCeIABdw6w4
+Fpjqzw70SfM8960fT4wQAAAAE21penl1ay5tYWtzQG1haWwucnUBAg==
+-----END OPENSSH PRIVATE KEY-----

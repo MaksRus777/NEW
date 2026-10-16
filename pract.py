@@ -55,10 +55,10 @@ def traning_one_symvol():
                     print(f"{i} - {list_of_mist.count(i)} раз")
                 else:
                     print(f"{i} - {list_of_mist.count(i)} раза")
-            time.sleep(10)
+            time.sleep(999)
     except ValueError:
         print("Здесь нужно ввести число, попробуйте еще раз.")
-        time.sleep(10)
+        time.sleep(999)
 
 
 def traning_3_symvols():
@@ -113,10 +113,10 @@ def traning_3_symvols():
                     print(f"{i} - {list_of_mist.count(i)} раз")
                 else:
                     print(f"{i} - {list_of_mist.count(i)} раза")
-            time.sleep(10)
+            time.sleep(999)
     except ValueError:
         print("Здесь нужно ввести число, попробуйте еще раз.")
-        time.sleep(10)
+        time.sleep(999)
 
 
 def traning_upper_registr():
@@ -171,10 +171,10 @@ def traning_upper_registr():
                     print(f"{i} - {list_of_mist.count(i)} раз")
                 else:
                     print(f"{i} - {list_of_mist.count(i)} раза")
-            time.sleep(10)
+            time.sleep(999)
     except ValueError:
         print("Здесь нужно ввести число, попробуйте еще раз.")
-        time.sleep(10)
+        time.sleep(999)
 
 
 def traning_special_symvol():
@@ -229,10 +229,10 @@ def traning_special_symvol():
                     print(f"{i} - {list_of_mist.count(i)} раз")
                 else:
                     print(f"{i} - {list_of_mist.count(i)} раза")
-            time.sleep(10)
+            time.sleep(999)
     except ValueError:
         print("Здесь нужно ввести число, попробуйте еще раз.")
-        time.sleep(10)
+        time.sleep(999)
 
 def traning_english_words():
     english_list = []
@@ -317,8 +317,8 @@ try:
 
     if level_choice != 1 and level_choice != 2 and level_choice != 3 and level_choice != 4 and level_choice != 5:
         print("Вы не выбрали ни один из предложеных вариантов, попробуйте еще раз.")
-        time.sleep(10)
+        time.sleep(999)
 except ValueError:
     print("Вы не выбрали ни один из предложеных вариантов, попробуйте еще раз.")
-    time.sleep(10)
+    time.sleep(999)
 
