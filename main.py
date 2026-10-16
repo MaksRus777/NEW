@@ -1,7 +1,9 @@
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACDkvkw0A0VXYLJwniAAXcOsOBaY6s8O9EnzPPetH0+MEAAAAJih0iRModIk
-TAAAAAtzc2gtZWQyNTUxOQAAACDkvkw0A0VXYLJwniAAXcOsOBaY6s8O9EnzPPetH0+MEA
-AAAEApAoS890f7cL4OfrNa518JcPvz1u7TBqoZ3CJhoOco+OS+TDQDRVdgsnCeIABdw6w4
-Fpjqzw70SfM8960fT4wQAAAAE21penl1ay5tYWtzQG1haWwucnUBAg==
------END OPENSSH PRIVATE KEY-----
+import keyboard
+
+def foo():
+    print('World')
+
+keyboard.add_hotkey('Ctrl + 1', lambda: print('Hello'))
+keyboard.add_hotkey('Ctrl + 2', foo)
+
+keyboard.wait('Ctrl + Q')
